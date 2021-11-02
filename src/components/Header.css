@@ -1,0 +1,36 @@
+.header {
+  min-height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.1)), url('../images/headerbackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10px;
+  
+  }
+  .header_title {
+    color:white;
+    font-family: inter;
+    text-align: center;
+
+
+  }
+
+  @media screen and (max-width: 650px) {
+    .header_title {
+      font-size: 16px;
+    }
+    .header {
+      min-height: 150px;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .header_title {
+      font-size: 10px;
+    }
+    .header {
+      min-height: 150px;
+    }
+  }
